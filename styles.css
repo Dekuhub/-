@@ -1,0 +1,244 @@
+
+:root {
+  --scrollbarBgColor: rgba(0, 0, 0, .05);
+  --scrollbarThumbColor: rgba(0, 0, 0, .15);
+  --scrollbarThumbColorSecond: rgba(255, 255, 255, .7);
+  --scrollbarWidth: 16px;
+  --scrollbarBorder: 0 solid var(--scrollbarBgColor);
+  --scrollbarBorderRadius: calc(var(--scrollbarWidth) / 4);
+}
+body {
+  scrollbar-width: var(--scrollbarWidth);
+  scrollbar-color: var(--scrollbarThumbColor) var(--scrollbarBgColor);
+}
+body::-webkit-scrollbar {
+  width: var(--scrollbarWidth);
+}
+body::-webkit-scrollbar-track {
+  background: var(--scrollbarBgColor);
+  border-radius: var(--scrollbarBorderRadius);
+}
+body::-webkit-scrollbar-thumb {
+  background-color: var(--scrollbarThumbColor);
+  border-radius: var(--scrollbarBorderRadius);
+  border: var(--scrollbarBorder);
+  background-image: linear-gradient(
+    180deg,
+    var(--scrollbarThumbColor) 0%,
+    var(--scrollbarThumbColorSecond) 90%
+  );
+}
+
+/* this stuff below doesn't
+   affect scrollbar styling */
+
+body {
+  /* width: clamp(200px, 50%, 300px); */
+  height: 75vh;
+  /* overflow: auto; */
+}
+body{
+  line-height: 1.5;
+  font-size: 1rem;
+  color: black;
+  font-family: 'Montserrat', sans-serif;
+}
+.header{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 30px 15px;
+  box-sizing: border-box;
+  max-width: 1330px;
+  margin: 0 auto;
+}
+.menu{
+  display: flex;
+  list-style: none;
+}
+.menu li{
+  margin-left: 94px;
+}
+.menu li a{
+  color: gray;
+  text-decoration: none;
+}
+.menu li a:hover{
+  color: red;
+}
+.logo{
+  width: 100px;
+  height: 120px;
+}
+.tp {
+  margin: 0 auto;
+  align-items: center;
+bottom: 0;
+position:sticky;
+display: flex;
+text-align: center;
+justify-content: center;
+column-gap: 25px;
+}
+
+header{
+margin: 0 auto;
+}
+
+*{
+font-family: sans-serif;
+padding: 0;
+margin: 0;
+}
+
+.tp img{
+width: 60px;  
+height: 60px;
+}
+
+.tp p{
+  margin-top: 20px;
+}
+
+.sect a{
+align-items: center;
+  border-radius: 40px ;
+  text-align: center;
+  justify-content: center;
+ font-size:2rem;
+  background-color:#e8d6c2;
+  width: 100%;
+  height: 12%;
+margin-bottom: 30px;
+margin-top: 12%;
+  display: flex;
+text-decoration: none;
+color:black;
+
+}
+
+.fhoto img{
+  border: 5px solid brown;
+  width: 100%;
+}
+.osnova{
+  gap: 100px;
+  display: flex;
+  flex-direction: column;
+}
+.sect {
+  flex-direction: column;
+display: flex;
+}
+@media (max-width:768px) {
+  body{
+    background-image: url(images/12.jpg);no-repeat center fixed;
+         -webkit-background-size: cover;
+         -moz-background-size: cover;
+         -o-background-size: cover;
+         background-size: 250%;
+  }
+  .osnova{
+    flex-direction: row;
+  }
+  .fhoto{
+  
+    width: 100%;
+  }
+}
+@media (max-width:1024px) {
+  body{
+    background-image: url(images/12.jpg);no-repeat center center fixed;
+         -webkit-background-size: cover;
+         -moz-background-size: cover;
+         -o-background-size: cover;
+         background-size: 150%;
+  }
+  .osnova{
+    flex-direction: row;
+  }
+}
+@media (max-width:1440px) {
+  .osnova{
+    body {
+      background-image: url(images/12.jpg);no-repeat center center fixed;
+           -webkit-background-size: cover;
+           -moz-background-size: cover;
+           -o-background-size: cover;
+           background-size: 150%;
+    }
+    justify-content: center;
+    flex-direction: row;
+  }
+  .taip{
+    padding-right: 10px;
+    padding-left:10px ;
+  width:max-content ;
+  }
+.sect a{
+  box-shadow: 0 0 20px #CEB4B4;
+  margin: 50px;
+}
+.sect a:hover{
+box-shadow: none;
+}
+.fhoto{
+  margin: 40px;
+}
+}
+@media (max-width:2560px) {
+  body{
+    background-image: url(images/12.jpg);no-repeat center center fixed;
+         -webkit-background-size: cover;
+         -moz-background-size: cover;
+         -o-background-size: cover;
+         background-size: 150%;
+  }
+  .osnova{
+    justify-content: center;
+    flex-direction: row;
+  }
+  .taip{
+    padding-right: 10px;
+    padding-left:10px ;
+  width:max-content ;
+  }
+.sect a{
+  box-shadow: 0 0 20px #CEB4B4;
+  margin: 50px;
+}
+.sect a:hover{
+box-shadow: none;
+}
+.fhoto{
+  margin: 40px;
+}
+}
+@media (max-width:3440px) {
+  body{
+    background-image: url(images/12.jpg);no-repeat center center fixed;
+         -webkit-background-size: cover;
+         -moz-background-size: cover;
+         -o-background-size: cover;
+         background-size: 150%;
+  }
+  .osnova{
+    justify-content: center;
+    flex-direction: row;
+  }
+  .taip{
+    padding-right: 10px;
+    padding-left:10px ;
+  width:max-content ;
+  }
+.sect a{
+  box-shadow: 0 0 20px #CEB4B4;
+  margin: 50px;
+}
+.sect a:hover{
+box-shadow: none;
+}
+.fhoto{
+  margin: 40px;
+}
+} 
