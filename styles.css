@@ -242,3 +242,27 @@ box-shadow: none;
   margin: 40px;
 }
 } 
+.st5 {
+  animation: animka 5s linear forwards;
+}
+.st4 {
+  animation: animka 4s linear forwards;
+}
+.st3 {
+  animation: animka 3s linear forwards;
+}
+.st2 {
+  animation: animka 2s linear forwards;
+}
+.st1  {
+  
+  animation: animka 1s linear forwards;
+}
+
+@keyframes animka{
+  0% {
+      opacity: 0%;
+  }
+  100% {
+    opacity: 100%;
+}

@@ -40,12 +40,6 @@
             width: 1000px;
             height: 600px;
         }
-        .sect p{
-          font-size:2rem;
-         padding: 80px;
-          margin-left: 50px;
-      }
-
         .taip{
             height: 43px;
             width: 700px;
@@ -62,4 +56,14 @@
 
           .left{
             margin-top: -22px;
+          }
+          .tx2{
+            font-size:2rem;
+            padding: 80px;
+             margin-left: 50px;
+          }
+          .tx1{
+            font-size:2rem;
+            padding: 50px;
+             margin-left: 50px;
           }
