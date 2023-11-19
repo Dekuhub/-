@@ -39,7 +39,7 @@ body {
 }
 body{
   line-height: 1.5;
-  font-size: 1rem;
+  font-size: 120%;
   color: black;
   font-family: 'Montserrat', sans-serif;
 }
@@ -74,7 +74,7 @@ body{
   margin: 0 auto;
   align-items: center;
 bottom: 0;
-position:sticky;
+position:relative;
 display: flex;
 text-align: center;
 justify-content: center;
@@ -143,7 +143,7 @@ display: flex;
   }
   .fhoto{
   
-    width: 100%;
+    width:100%;
   }
 }
 @media (max-width:1024px) {
