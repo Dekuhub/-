@@ -38,11 +38,16 @@
 
         .sect{
             margin: 50px;
-           border-radius: 100px;
+            border-radius: 100px;
             background-color:#AB9C9C ;
             width: 1000px;
             height: 600px;
         }
+        .sect p{
+          font-size:2rem;
+         padding: 80px;
+          margin-left: 50px;
+      }
 
         .taip{
             height: 43px;
