@@ -43,6 +43,14 @@ body{
   color: black;
   font-family: 'Montserrat', sans-serif;
 }
+main{
+  background-color: #dcdffc ;
+}
+.header_wrap{ 
+  font-size: 120%;
+  border: 1px solid #211c1c;
+  background-color: azure;
+}
 .header{
   display: flex;
   align-items: center;
@@ -51,6 +59,25 @@ body{
   box-sizing: border-box;
   max-width: 1330px;
   margin: 0 auto;
+}
+.st1 .st2 .st3 .st4 .st5 a{
+  color: gray;
+  text-decoration: none;
+}
+.st1:hover{
+  color: brown;
+}
+.st2:hover{
+  color: brown;
+}
+.st3:hover{
+  color: brown;
+}
+.st4:hover{
+  color: brown;
+}
+.st5:hover{
+  color: brown;
 }
 .menu{
   display: flex;
@@ -71,6 +98,7 @@ body{
   height: 120px;
 }
 .tp {
+  border: 1px solid #211c1c;
   margin: 0 auto;
   align-items: center;
 bottom: 0;
@@ -106,19 +134,19 @@ align-items: center;
   text-align: center;
   justify-content: center;
  font-size:2rem;
-  background-color:#e8d6c2;
+  background-color:aliceblue;
   width: 100%;
   height: 12%;
 margin-bottom: 30px;
 margin-top: 12%;
   display: flex;
 text-decoration: none;
-color:black;
+
 
 }
 
 .fhoto img{
-  border: 5px solid brown;
+  border: 3px solid brown;
   width: 100%;
 }
 .osnova{
@@ -132,7 +160,7 @@ display: flex;
 }
 @media (max-width:768px) {
   body{
-    background-image: url(images/12.jpg);no-repeat center fixed;
+         background-color: azure;
          -webkit-background-size: cover;
          -moz-background-size: cover;
          -o-background-size: cover;
@@ -148,7 +176,7 @@ display: flex;
 }
 @media (max-width:1024px) {
   body{
-    background-image: url(images/12.jpg);no-repeat center center fixed;
+         background-color: azure;
          -webkit-background-size: cover;
          -moz-background-size: cover;
          -o-background-size: cover;
@@ -161,7 +189,7 @@ display: flex;
 @media (max-width:1440px) {
   .osnova{
     body {
-      background-image: url(images/12.jpg);no-repeat center center fixed;
+           background-color: azure;
            -webkit-background-size: cover;
            -moz-background-size: cover;
            -o-background-size: cover;
@@ -188,7 +216,7 @@ box-shadow: none;
 }
 @media (max-width:2560px) {
   body{
-    background-image: url(images/12.jpg);no-repeat center center fixed;
+         background-color: azure;
          -webkit-background-size: cover;
          -moz-background-size: cover;
          -o-background-size: cover;
@@ -216,7 +244,7 @@ box-shadow: none;
 }
 @media (max-width:3440px) {
   body{
-    background-image: url(images/12.jpg);no-repeat center center fixed;
+         background-color: azure;
          -webkit-background-size: cover;
          -moz-background-size: cover;
          -o-background-size: cover;
@@ -226,13 +254,16 @@ box-shadow: none;
     justify-content: center;
     flex-direction: row;
   }
+  .tp {
+    padding: 62px;
+  }
   .taip{
     padding-right: 10px;
     padding-left:10px ;
   width:max-content ;
   }
 .sect a{
-  box-shadow: 0 0 20px #CEB4B4;
+  box-shadow: 0 0 20px blueviolet;
   margin: 50px;
 }
 .sect a:hover{
@@ -257,6 +288,10 @@ box-shadow: none;
 .st1  {
   
   animation: animka 1s linear forwards;
+}
+.st6  {
+  
+  animation: animka 2s linear forwards;
 }
 
 @keyframes animka{

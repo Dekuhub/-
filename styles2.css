@@ -9,12 +9,19 @@
     width: 100%;
     height: 60px;
     }
-    
-.net{
+.net{ 
+  font-family: sans-serif;
   text-decoration: none;
   font-size: 2rem;
   margin-top: 10px;
   margin-right: 150px;
+}
+.net a{
+  color: gray;
+  text-decoration: none;
+}
+.net a:hover{
+  color: red;
 }
     .head1{
       display: flex;
