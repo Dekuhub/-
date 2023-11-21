@@ -60,7 +60,7 @@ main{
   max-width: 1330px;
   margin: 0 auto;
 }
-.st1 .st2 .st3 .st4 .st5 a{
+.st1 .st2 .st3 .st4 .st5 .st7 a{
   color: gray;
   text-decoration: none;
 }
@@ -77,6 +77,9 @@ main{
   color: brown;
 }
 .st5:hover{
+  color: brown;
+}
+.st7:hover{
   color: brown;
 }
 .menu{
@@ -264,7 +267,7 @@ box-shadow: none;
   }
 .sect a{
   box-shadow: 0 0 20px blueviolet;
-  margin: 50px;
+  margin: 40px;
 }
 .sect a:hover{
 box-shadow: none;
@@ -292,6 +295,10 @@ box-shadow: none;
 .st6  {
   
   animation: animka 2s linear forwards;
+}
+.st7  {
+  
+  animation: animka 4.5s linear forwards;
 }
 
 @keyframes animka{
