@@ -277,16 +277,16 @@ box-shadow: none;
 }
 } 
 .st5 {
-  animation: animka 5s linear forwards;
+  animation: animka 3.5s linear forwards;
 }
 .st4 {
-  animation: animka 4s linear forwards;
+  animation: animka 2.5s linear forwards;
 }
 .st3 {
-  animation: animka 3s linear forwards;
+  animation: animka 2s linear forwards;
 }
 .st2 {
-  animation: animka 2s linear forwards;
+  animation: animka 1.5s linear forwards;
 }
 .st1  {
   
@@ -298,7 +298,7 @@ box-shadow: none;
 }
 .st7  {
   
-  animation: animka 4.5s linear forwards;
+  animation: animka 3s linear forwards;
 }
 
 @keyframes animka{
