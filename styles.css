@@ -166,6 +166,34 @@ main{
   justify-content: center;
   column-gap: 25px;
 }
+.menubox{
+  display: block;
+  position: fixed;
+  visibility: hidden;
+  top: 0;
+  right: 100%;
+  width: 200px;
+  height: 29%;
+  margin: 0;
+  padding: 90px 0;
+  list-style: none;
+  background-color: #ECEFF1;
+  box-shadow: 1px 0px 6px rgba(0, 0, 0, .2);
+  transition-duration: .25s;
+}
+.menu-btn{
+  margin-right: 25%;
+  margin-top: 102px;
+  display: flex;
+  align-items: center;
+  position: absolute;
+  top: 0;
+  right:0;
+  width: 26px;
+  height: 26px;
+  cursor: pointer;
+  z-index: 1;
+}
 .Karta img{ 
   margin-bottom: 6px;
   border-radius: 100%;
@@ -360,37 +388,7 @@ display: flex;
     flex-direction: row;
   }
 }
-@media (min-width:1440px) {
-  .menu-btn{
-    margin-right:100px;
-    margin-top: 102px;
-    display: flex;
-    align-items: center;
-    position: absolute;
-    top: 0;
-    right:0;
-    width: 26px;
-    height: 26px;
-    cursor: pointer;
-    z-index: 1;
-  }
-  .menubox{
-    z-index: 1;
-    display: block;
-    position: fixed;
-    visibility: hidden;
-    top: 0;
-    right: 100%;
-    width: 200px;
-    height: 100%;
-    margin: 0;
-    padding: 80px 0;
-    list-style: none;
-    background-color: #ECEFF1;
-    box-shadow: 1px 0px 6px rgba(0, 0, 0, .2);
-    transition-duration: .25s;
-  }
-}
+
 @media (max-width:1440px) {
   .osnova{
     body {
@@ -404,34 +402,20 @@ display: flex;
     flex-direction: row;
   }
   .menu-btn{
-    margin-right:100px;
+    margin-right:500px;
     margin-top: 102px;
-    display: flex;
-    align-items: center;
-    position: absolute;
-    top: 0;
-    right:0;
-    width: 26px;
-    height: 26px;
-    cursor: pointer;
     z-index: 1;
   }
-  .menubox{
-    z-index: 1;
-    display: block;
-    position: fixed;
-    visibility: hidden;
-    top: 0;
-    right: 100%;
-    width: 200px;
-    height: 7%;
-    margin: 0;
-    padding: 80px 0;
-    list-style: none;
-    background-color: #ECEFF1;
-    box-shadow: 1px 0px 6px rgba(0, 0, 0, .2);
-    transition-duration: .25s;
-  }
+
+    .menubox{
+      z-index: 1;
+      top: 0;
+      right: 200%;
+      width: 200px;
+      height: 29%;
+      margin: 0;
+      padding: 90px 0;
+    }
   #menu-toggle:checked ~ .menubox {
     visibility: visible;
     left: 7%;
@@ -465,32 +449,7 @@ box-shadow: none;
     flex-direction: row;
   }
   .menu-btn{
-    margin-right: 600px;
-    margin-top: 102px;
-    display: flex;
-    align-items: center;
-    position: absolute;
-    top: 0;
-    right:0;
-    width: 26px;
-    height: 26px;
-    cursor: pointer;
-    z-index: 1;
-  }
-  .menubox{
-    display: block;
-    position: fixed;
-    visibility: hidden;
-    top: 0;
-    right: 100%;
-    width: 200px;
-    height: 29%;
-    margin: 0;
-    padding: 80px 0;
-    list-style: none;
-    background-color: #ECEFF1;
-    box-shadow: 1px 0px 6px rgba(0, 0, 0, .2);
-    transition-duration: .25s;
+    margin-right: 25%;
   }
   #menu-toggle:checked ~ .menubox {
     visibility: visible;
@@ -524,6 +483,9 @@ box-shadow: none;
     justify-content: center;
     flex-direction: row;
   }
+  .menu-btn{
+    margin-right: 30%;
+  }
   .tp {
     padding: 66px;
   }
@@ -537,32 +499,10 @@ box-shadow: none;
   margin: 40px;
 }
 .menu-btn{
-  margin-right: 990px;
-  margin-top: 102px;
-  display: flex;
-  align-items: center;
-  position: absolute;
-  top: 0;
-  right:0;
-  width: 26px;
-  height: 26px;
-  cursor: pointer;
-  z-index: 1;
+z-index: 1;
 }
 .menubox{
-  display: block;
-  position: fixed;
-  visibility: hidden;
-  top: 0;
-  right: 100%;
-  width: 200px;
-  height: 25%;
-  margin: 0;
-  padding: 80px 0;
-  list-style: none;
-  background-color: #ECEFF1;
-  box-shadow: 1px 0px 6px rgba(0, 0, 0, .2);
-  transition-duration: .25s;
+z-index: 1;
 }
 .sect a:hover{
 box-shadow: none;
