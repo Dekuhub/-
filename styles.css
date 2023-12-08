@@ -173,7 +173,7 @@ main{
   top: 0;
   right: 100%;
   width: 200px;
-  height: 29%;
+  height: 35%;
   margin: 0;
   padding: 90px 0;
   list-style: none;
@@ -409,12 +409,6 @@ display: flex;
 
     .menubox{
       z-index: 1;
-      top: 0;
-      right: 200%;
-      width: 200px;
-      height: 29%;
-      margin: 0;
-      padding: 90px 0;
     }
   #menu-toggle:checked ~ .menubox {
     visibility: visible;

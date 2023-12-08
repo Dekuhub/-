@@ -16,6 +16,29 @@ font-size: 2rem;
 margin-top: 10px;
 margin-right: 150px;
 }
+.kartinka1 img{
+  border: 3px solid grey;
+}
+.kartinka2 img{
+  border: 3px solid burlywood;
+  width: 100%;
+}
+.kartinka3 img{
+  border: 3px solid brown;
+  width: 100%;
+}
+.kartinka4 img{
+  border: 3px solid blue;
+  width: 100%;
+}
+.kartinka5 img{
+  border: 3px solid yellowgreen;
+  width: 100%;
+}
+.kartinka6 img{
+  border: 3px solid brown;
+  width: 100%;
+}
 .net a{
 color: gray;
 text-decoration: none;
@@ -69,36 +92,36 @@ color: red;
         }
         .tx1 {
           margin-left: 25px;
-          font-size:2rem;
+          font-size:2.2rem;
           margin-top: 20px;
         }
         .tx4{
-          font-size:1.7rem;
-          margin-top: 20px;
+          font-size:1.8rem;
+          margin-top: 30px;
           margin-left: 20px;
         }
 
         .tx2 {
-          font-size: 1.8rem;
-          margin-top: 20px;
+          font-size: 2rem;
+          margin-top: 35px;
           margin-left: 20px;
         }
 
         .tx3 {
-          font-size: 1.8rem;
+          font-size: 2rem;
           margin-top: 20px;
           margin-left: 20px;
         }
 
         .tx5 {
           font-size: 2.24rem;
-          margin-top: 20px;
+          margin-top: 30px;
           margin-left: 25px;
         }
 
         .tx6 {
-          font-size: 1.99rem;
-          margin-top: 25px;
+          font-size: 2.2rem;
+          margin-top: 35px;
           margin-left: 30px;
         }
 main{
@@ -107,7 +130,7 @@ main{
 }
 
 .kartinka2 {
-  margin-top: 3%;
+  margin-top: 2%;
   margin-left: 3%;
 }
 
@@ -118,16 +141,16 @@ main{
 
 .kartinka6 {
   margin-left: 3%;
-  margin-top: 3%;
+  margin-top: 2%;
 }
 
 .kartinka1 {
   margin-left: 5%;
-  margin-top: 2.5%;
+  margin-top: 2%;
 }
 
 .kartinka3 {
-  margin-top: 2.5%;
+  margin-top: 2%;
   margin-left: 3%;
 }
 
@@ -136,6 +159,6 @@ main{
 }
 
 .kartinka4 {
-  margin-top: 3%;
+  margin-top: 2%;
   margin-left: 3%;
 }
