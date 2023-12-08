@@ -25,20 +25,17 @@
         <img src="images/Component 1.png" alt="Logo" class="logo">
     </a>
     <nav>
-      <div class="burger-menu">
-        <input id="menu-toggle" type="checkbox" />
-        <label class="menu-btn" for="menu-toggle">
-          <span></span>
-        </label>
-     
-        <ul class="menubox">
-                <li><a class="menu-item">Контакты</a></li>
-                <li><a class="menu-item" href="https://vk.com/id339910766">Глеб</a></li>
-                <li><a class="menu-item" href="https://vk.com/computer_data">Анна</a></li>
-                <li><a class="menu-item" href="https://vk.com/roni_judgement">Рони</a></li>
-        </ul>
+<div class="bloki">
         <ul class="menu">
           <ul class="wrapper">
+            <li class="helper">
+              <span class="helpersp"><button class="helperbutton" onclick="openModal()"><div class="helpertxt"><p>Помощница Хисти</p></div></button></span>
+            </li>
+            <li>
+              <div class="waifudiv">
+                 <img class="waifu"  src="images/photo_2023-12-08_19-16-34.jpg" alt="">
+              </div>
+            </li>
             <li class="icon facebook">
               <a href="http://127.0.0.1:5500/indexK.html">
               <span class="tooltip"> Карта </span>
@@ -48,7 +45,33 @@
           </ul>
         </ul>
     </nav>
-
+    <div id="myModal" class="modal">
+      <div class="modal-content">
+          <span class="close" onclick="closeModal()">×</span>
+          <h2>Привет, я Хисти</h2>
+          <p class="modaltxt1 modaltxt">Давай начнем изучать деятельность Дмитрия Донского! На этом сайте ты будешь изучать темы с помощью текста, картинок и опросов, а так же с помощью интерактивной карты. Выбери, с чего мы начнем</p> <br>
+            <div class="Var1">
+              <button class="Var11"><a href="http://127.0.0.1:5500/inde2.html" class="avar"><p>Текст</p></a></button>
+              <button class="Var12"><a href="http://127.0.0.1:5500/indexK.html" class="avar"><p>Карта</p></a></button>
+            </div>
+        <div class="wifu2">
+        <img src="images/photo_2023-12-08_19-16-53.jpg" alt="">
+        </div>
+      </div>
+   </div>
+   <div class="burger-menu">
+    <input id="menu-toggle" type="checkbox" />
+    <label class="menu-btn" for="menu-toggle">
+      <span></span>
+    </label>
+ 
+    <ul class="menubox">
+            <li><a class="menu-item">Контакты</a></li>
+            <li><a class="menu-item" href="https://vk.com/id339910766">Глеб</a></li>
+            <li><a class="menu-item" href="https://vk.com/computer_data">Анна</a></li>
+            <li><a class="menu-item" href="https://vk.com/roni_judgement">Рони</a></li>
+    </ul>
+  </div>
     </header>
         </section>
 
