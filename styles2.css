@@ -1,14 +1,27 @@
-.tp{
+.tp {
+  border: 1px solid #211c1c;
+  margin: 0 auto;
+  align-items: center;
   bottom: 0;
-  position:absolute;
   display: flex;
   text-align: center;
   justify-content: center;
   column-gap: 25px;
-  background-color: azure ;
-  width: 100%;
+  background-color: #F0FFFF;
+  padding: 20px;
+  margin-top: 0 auto;
+}
+
+.page {
+min-height: 100%;
+display: flex;
+flex-direction: column;
+}
+
+.tp img {
+  width: 60px;
   height: 60px;
-  }
+}
 .net{ 
 font-family: sans-serif;
 text-decoration: none;
@@ -54,15 +67,20 @@ color: red;
       justify-content: center;
     background-color:azure;
     }
-    body{
+    main{
+      flex: 1 1 auto;
       background-color:#dcdffc ;
     }
     header{
+      border: 1px solid #211c1c;
+      padding: 35px;
+      background-color:#F0FFFF ;
       margin: 0 auto;
       }
       
-      body{
-      margin: 0 auto;
+      html,body{
+         height: 100%;
+         margin: 0 auto;
       }
 
       .sect {
@@ -129,36 +147,60 @@ main{
   width: 100%;
 }
 
-.kartinka2 {
+.kartinka2 img {
+  height:600px;
+  width:600px;
   margin-top: 2%;
   margin-left: 3%;
 }
 
 .flex{
+  align-items: center;
+  justify-content: center;
   display: flex;
   flex-direction: row;
 }
 
-.kartinka6 {
+.kartinka6 img {
+  height:600px;
+  width:600px;
   margin-left: 3%;
   margin-top: 2%;
 }
 
-.kartinka1 {
+.kartinka1 img {
+  height:600px;
+   width:475px;
   margin-left: 5%;
   margin-top: 2%;
 }
 
-.kartinka3 {
+.kartinka3 img {
+  height:600px;
+  width:481px;
   margin-top: 2%;
   margin-left: 3%;
 }
 
-.kartinka5 {
+.kartinka5 img {
   margin-top: 4.5%;
 }
 
-.kartinka4 {
+.kartinka4 img {
+   width:481px;
+   height:600px;
   margin-top: 2%;
   margin-left: 3%;
 }
+@media (max-width:1024px) {
+  .tx1{
+    font-size: 1.5rem;
+  }
+
+  }
+  @media (max-width:768px) {
+    .tx1{
+      font-size: 13px;
+    }
+  
+    }
