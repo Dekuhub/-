@@ -1,0 +1,236 @@
+.tp {
+  border: 1px solid #211c1c;
+  margin: 0 auto;
+  align-items: center;
+  bottom: 0;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  column-gap: 25px;
+  background-color: #F0FFFF;
+  padding: 20px;
+  margin-top: 0 auto;
+}
+
+.page {
+min-height: 100%;
+display: flex;
+flex-direction: column;
+}
+
+.tp img {
+  width: 60px;
+  height: 60px;
+}
+.net{ 
+font-family: sans-serif;
+text-decoration: none;
+font-size: 2rem;
+margin-top: 10px;
+margin-right: 150px;
+}
+.kartinka1 img{
+  border: 3px solid grey;
+}
+.kartinka2 img{
+  border: 3px solid burlywood;
+  width: 100%;
+}
+.kartinka3 img{
+  border: 3px solid brown;
+  width: 100%;
+}
+.kartinka4 img{
+  border: 3px solid blue;
+  width: 100%;
+}
+.kartinka5 img{
+  border: 3px solid yellowgreen;
+  width: 100%;
+}
+.kartinka6 img{
+  border: 3px solid brown;
+  width: 100%;
+}
+.net a{
+color: gray;
+text-decoration: none;
+}
+.net a:hover{
+color: red;
+}
+  .head1{
+    display: flex;
+    width: 100%;
+    height: 60px;
+      text-align: center;
+      justify-content: center;
+    background-color:azure;
+    }
+    main{
+      flex: 1 1 auto;
+      background-color:#dcdffc ;
+    }
+    header{
+      border: 1px solid #211c1c;
+      padding: 35px;
+      background-color:#F0FFFF ;
+      margin: 0 auto;
+      }
+      
+      html,body{
+         height: 100%;
+         margin: 0 auto;
+      }
+
+      .sect {
+          margin: 50px;
+          border-radius: 40px ;
+          background-color:aliceblue;
+          max-width: 800px ;
+          height: 530px;
+          }
+      
+      .taip{
+          height: 43px;
+          width: 700px;
+          border-radius: 5px;
+          margin-bottom: 10px;
+          background-color: azure;
+          margin-top: 10px;
+          font-size:35px;
+        }
+
+        .right{
+          margin-top: -16px;
+        }
+
+        .left{
+          margin-top: -22px;
+        }
+        .tx1 {
+          margin-left: 25px;
+          font-size:2.2rem;
+          margin-top: 20px;
+        }
+        .tx4{
+          font-size:1.8rem;
+          margin-top: 30px;
+          margin-left: 20px;
+        }
+
+        .tx2 {
+          font-size: 2rem;
+          margin-top: 35px;
+          margin-left: 20px;
+        }
+
+        .tx3 {
+          font-size: 2rem;
+          margin-top: 20px;
+          margin-left: 20px;
+        }
+
+        .tx5 {
+          font-size: 2.24rem;
+          margin-top: 30px;
+          margin-left: 25px;
+        }
+
+        .tx6 {
+          font-size: 2.2rem;
+          margin-top: 35px;
+          margin-left: 30px;
+        }
+main{
+ height: 100%;
+  width: 100%;
+}
+
+.kartinka2 img {
+  height:600px;
+  width:600px;
+  margin-top: 2%;
+  margin-left: 3%;
+}
+
+.flex{
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  flex-direction: row;
+}
+
+.kartinka6 img {
+  height:600px;
+  width:600px;
+  margin-left: 3%;
+  margin-top: 2%;
+}
+
+.kartinka1 img {
+  height:600px;
+   width:475px;
+  margin-left: 5%;
+  margin-top: 2%;
+}
+
+.kartinka3 img {
+  height:600px;
+  width:481px;
+  margin-top: 2%;
+  margin-left: 3%;
+}
+
+.kartinka5 img {
+  margin-top: 4.5%;
+}
+
+.kartinka4 img {
+   width:481px;
+   height:600px;
+  margin-top: 2%;
+  margin-left: 3%;
+}
+@media (max-width:1024px) {
+  .tx1{
+    font-size: 1.5rem;
+  }
+
+  }
+  @media (max-width:768px) {
+    .tx1{
+      font-size: 13px;
+    }
+  
+    }
+
+    .tooltip {
+      color: blueviolet;
+      position: relative;
+      cursor: pointer;
+    }
+
+    .tooltip:before {
+      display: block;
+      position: absolute;
+      bottom: 30px;
+      content:attr(data-title);
+      width: 500px;
+      background-color: #dcdffc;
+      box-sizing: border-box;
+      text-align: center;
+      font-size: .8em;
+      border-radius: 7px;
+      opacity: 0;
+      visibility: hidden;
+    }
+
+    .tooltip:hover::before {
+      opacity: 1;
+      visibility: visible;
+    }
+
+    .link {
+      color: blueviolet;
+    }
