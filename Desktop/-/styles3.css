@@ -1,0 +1,84 @@
+.map {
+    position: relative;
+    text-align: center;
+
+    background-color: white;
+}
+
+svg { 
+    position: absolute;
+    top: -0.5%;
+    left: 0;
+    height: 100%;
+    width: 100%;
+}
+
+.part1 {
+    opacity: .3;
+}
+
+.part1:hover {
+    transition: opasity .2s ease;
+    opacity: .6;
+    cursor: pointer;
+}
+
+.part2 { 
+    opacity: .3;
+}
+
+.part2:hover { 
+    transition: opasity .2s ease;
+    opacity: .6;
+    cursor: pointer;
+}
+
+.part3 {
+    opacity: .3;
+}
+
+.part3:hover {
+    transition: opasity .2s ease;
+    opacity: .6;
+    cursor: pointer;
+}
+
+.part4 {
+    opacity: .3;
+}
+
+.part4:hover {
+    transition: opasity .2s ease;
+    opacity: .6;
+    cursor: pointer;
+}
+
+.part5 {
+    opacity: .3;
+}
+
+.part5:hover {
+    transition: opasity .2s ease;
+    opacity: .6;
+    cursor: pointer;
+}
+
+.part6 {
+    opacity: .3;
+}
+
+.part6:hover {
+    transition: opasity .2s ease;
+    opacity: .6;
+    cursor: pointer;
+}
+
+.part7 {
+    opacity: .3;
+}
+
+.part7:hover {
+    transition: opasity .2s ease;
+    opacity: .6;
+    cursor: pointer;
+}
