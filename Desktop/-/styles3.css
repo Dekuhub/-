@@ -82,3 +82,21 @@ svg {
     opacity: .6;
     cursor: pointer;
 }
+main{
+    flex: 1 1 auto;
+    background-color:#dcdffc ;
+  }      
+  html,body{
+    height: 94.9%;
+    margin: 0 auto;
+ }
+ main{
+    height: 71vh;
+     width: 100%;
+   }
+   @media (max-width:1920px) {
+    .myr{
+      width: 71.8%;
+      height: 60%;
+    }
+      }

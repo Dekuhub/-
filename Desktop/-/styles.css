@@ -58,6 +58,16 @@ body {
   top: 8px;
 }
  
+.menu-item1 {
+  display: block;
+  padding: 12px 24px;
+  color: #333;
+  font-family: sans-serif;
+  font-size: 20px;
+  font-weight: 600;
+  text-decoration: none;
+  transition-duration: .25s;
+}
 .menu-item {
   display: block;
   padding: 12px 24px;
