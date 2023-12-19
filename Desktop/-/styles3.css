@@ -1,14 +1,13 @@
 .map {
     position: relative;
     text-align: center;
-
     background-color: white;
 }
 
 svg { 
     position: absolute;
-    top: -0.5%;
-    left: 0;
+    top: -0.6%;
+    left: 0.4%;
     height: 100%;
     width: 100%;
 }
@@ -85,8 +84,9 @@ svg {
 main{
     flex: 1 1 auto;
     background-color:#dcdffc ;
-  }      
-  html,body{
+  }    
+
+html,body{
     height: 94.9%;
     margin: 0 auto;
  }
